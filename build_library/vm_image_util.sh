@@ -40,6 +40,7 @@ VALID_IMG_TYPES=(
     niftycloud
     cloudsigma
     packet
+    oracle
     interoute
 )
 
@@ -62,6 +63,7 @@ VALID_OEM_PACKAGES=(
     niftycloud
     cloudsigma
     packet
+    oracle
     interoute
 )
 
@@ -284,6 +286,9 @@ IMG_cloudsigma_OEM_PACKAGE=oem-cloudsigma
 
 ## packet
 IMG_packet_OEM_PACKAGE=oem-packet
+
+## oracle
+IMG_oracle_OEM_PACKAGE=oem-oracle
 
 ## interoute
 IMG_interoute_DISK_FORMAT=vmdk_stream
